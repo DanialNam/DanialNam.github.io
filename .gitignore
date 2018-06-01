@@ -4,7 +4,6 @@
 .babelrc
 src/
 gulpfile.js
-package.json
 package-lock.json
 yarn.lock
 site.combined.min.css.map
