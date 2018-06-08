@@ -6,6 +6,7 @@ src/
 gulpfile.js
 package-lock.json
 yarn.lock
+server.js
 site.combined.min.css.map
 templates/*
 

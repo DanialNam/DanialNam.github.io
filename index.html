@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Danial's Github Page</title>
-  <link href="public/css/site.combined.min.css" rel="stylesheet">
+  <link href="./public/css/site.combined.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular-animate.js"></script>
@@ -15,36 +15,14 @@
 </head>
 
 <body ng-app="DanialGithubPage" ng-controller="MainCtrl as main">
-  <div>
-    <header id="header--wrap">
-      <div class="header--home"></div>
-      <div class="header__name--wrap">
-        <div class="header__face--icon"></div>
-        <h1 class="header--name">Danial Nam</h1>
-      </div>
-    </header>
-  </div>
-
-  <section id="section__first--languageSelect">
-    <div class="fadeInAndOut languageSelect--wrap" ng-show="main.isJustEntered">
-      <h1 class="languageSelect--languageSelectTxt">
-        {{ glob["Which language do you prefer?"] }}
-      </h1>
-      <div class="languageSelect--div">
-        <div class="languageSelect--option"
-             ng-repeat="languageOption in main.languageList"
-             ng-class="{
-               'languageOption--hover' : main.mouseover == $index
-             }"
-             ng-click="main.selectLanguage($index)"
-             ng-mouseleave = "main.mouseover = -1"
-             ng-mouseover = "main.mouseover = $index">
-          {{ languageOption.txt }}
-        </div>
-      </div>
+  <header id="header--wrap">
+    <div class="header--home"></div>
+    <div class="header__name--wrap">
+      <div class="header__face--icon"></div>
+      <h1 class="header--name">Danial Nam</h1>
     </div>
-  </section>
-
+  </header>
+  <div ng-include="'public/html/selectLanguage.html'"></div>
 </body>
 
 </html>
