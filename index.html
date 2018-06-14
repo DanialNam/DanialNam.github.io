@@ -10,19 +10,14 @@
   <link href="./public/css/site.combined.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular-animate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular-route.min.js"></script>
   <script src="public/js/site.combined.min.js"></script>
 </head>
 
 <body ng-app="DanialGithubPage" ng-controller="MainCtrl as main">
-  <header id="header--wrap">
-    <div class="header--home"></div>
-    <div class="header__name--wrap">
-      <div class="header__face--icon"></div>
-      <h1 class="header--name">Danial Nam</h1>
-    </div>
-  </header>
-  <div ng-include="'public/html/selectLanguage.html'"></div>
+  <div ng-include="'public/html/nav.html'"></div>
+  <div ng-view="/"></div>
 </body>
 
 </html>

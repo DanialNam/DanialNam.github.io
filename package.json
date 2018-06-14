@@ -94,9 +94,7 @@
         ],
         "siteIcon": "./public/img/site/favicon.*"
     },
-    "dependencies": {
-      
-    },
+    "dependencies": {},
     "devDependencies": {
         "babel-plugin-angularjs-annotate": "^0.9.0",
         "babel-plugin-transform-runtime": "^6.15.0",
@@ -136,7 +134,9 @@
         "moment": "^2.22.0",
         "pa11y": "^4.11.0"
     },
-    "scripts": {},
+    "scripts": {
+      "serve" : "http-server ./ -o"
+    },
     "bugs": {
         "email": "danialnam89@gmail.com"
     }
