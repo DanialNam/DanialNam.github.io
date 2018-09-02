@@ -12,5 +12,6 @@
   "portfolio_description" : "포트폴리오 사이트\n 현재 보고있는 웹 뷰입니다.",
   "walmat_stormy_description" : "Kaggle 대회\n 날씨에 민감한 상품들의 날씨에 따른 매출양을 예측하는 프로젝트입니다.",
   "walmat_triptype_description" : "Kaggle 대회\n 고객들의 구매 목록을 보고 구매스타일(Triptype)을 분류하는 프로젝트입니다.",
-  "Today I Learned" : "Today I Learned"
+  "Today I Learned" : "Today I Learned",
+  "Click to see notebook" : "Notebook 보러가기"
 }

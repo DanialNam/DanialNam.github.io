@@ -41,6 +41,16 @@
     <div class="loading--circle"></div>
   </div>
 
+  <div class="fadeInZeroSixAndOut ng-hide modal--background" ng-show="showNotebookUrl"></div>
+  <div class="ng-hide zoomInAndOut showcase--close--btn notebook--close--btn"
+       ng-show="showNotebookUrl"
+       ng-click="closeNotebookShowcase()">
+    <i class="fas fa-times"></i>
+  </div>
+  <div class="ng-hide zoomInAndOut jupyter--notebook--showcase" ng-show="showNotebookUrl">
+    <div data-ng-include src="notebookUrl"></div>
+  </div>
+
   <div class="ng-hide fadeSlideInAndOut section--nav--wrap" ng-show="main.showNav">
       <div class="section--nav--li"
             ng-repeat="nav in main.navs"

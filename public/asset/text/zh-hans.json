@@ -12,5 +12,6 @@
   "portfolio_description" : "Portfolio Web View\n You're looking at it now!",
   "walmat_stormy_description" : "Kaggle Competition\n Predict how sales of weather-sensitive products are affected by snow and rain.",
   "walmat_triptype_description" : "Kaggle Competition\n Classify shopping trips using transactional dataset of the items customers have purchased.",
-  "Today I Learned" : "Today I Learned"
+  "Today I Learned" : "Today I Learned",
+  "Click to see notebook" : "Click to see notebook"
 }
