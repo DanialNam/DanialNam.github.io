@@ -41,14 +41,15 @@
     <div class="loading--circle"></div>
   </div>
 
-  <div class="fadeInZeroSixAndOut ng-hide modal--background" ng-show="showNotebookUrl"></div>
+  <div class="ng-hide modal--background" ng-show="showNotebookUrl"></div>
   <div class="ng-hide zoomInAndOut showcase--close--btn notebook--close--btn"
        ng-show="showNotebookUrl"
        ng-click="closeNotebookShowcase()">
     <i class="fas fa-times"></i>
   </div>
   <div class="ng-hide zoomInAndOut jupyter--notebook--showcase" ng-show="showNotebookUrl">
-    <div data-ng-include src="notebookUrl"></div>
+    <!-- <div data-ng-include src="notebookUrl"></div> -->
+    <iframe ng-src="{{notebookUrl}}" width="100%" height="100%" frameborder="0"></iframe>
   </div>
 
   <div class="ng-hide fadeSlideInAndOut section--nav--wrap" ng-show="main.showNav">
