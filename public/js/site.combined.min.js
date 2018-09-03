@@ -1,8 +1,8 @@
 /**
  * @project        danialnamportfolio
  * @author         Danial DaeHyun Nam
- * @build          Mon, Sep 3, 2018 3:33 PM ET
- * @release        51597bd8ad9c57b4eb0cd460845465742a56ff60 [master]
+ * @build          Mon, Sep 3, 2018 11:59 PM ET
+ * @release        4c280d141ff2fcb2ad9858ff50b298b759731c02 [master]
  * @copyright      Copyright (c) 2018, 
  *
  */
