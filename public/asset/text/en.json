@@ -14,11 +14,13 @@
   "walmat_stormy_description_detail" : "• About : Found features that have the influence on unit sales and then predicted it by Ordinary Least Squares Model.<br><br>• Period : 2018. 06 - 2018. 07<br>• Train Data - 4 variables and 4617600 sales data<br>• Test Data - 3 variables and 526917 sales data<br>• Weather Data - 20 variables and 20517 weather data<br>• Model : Ordinary Least Squares Model<br><br>• For more details see notebook",
   "walmat_triptype_description" : "Kaggle Competition\n Classify shopping trips using transactional dataset of the items customers have purchased.",
   "walmat_triptype_description_detail" : "• About : Classification competition. Classify shopping trips using transactional dataset of the items customers have purchased by XGBoost | Kaggle Competition<br><br>• Period : 2018. 07 - 2018. 08<br>• Train Data - 7 variables and 647054 sales data<br>• Test Data - 6 variables and 653646 sales data<br>• Model : XGBoost Classification<br>• Kaggle score : 0.67767 | Kaggle rank : 201/1047 (19.2%)<br><br>• For more details see notebook",
-  "insta_scrapy_description" : "Crawling & Data Mining Project\n Crawled instagram datas using Scrapy framework to find out what kind of tags are being used in Seoul and get an interesting insight from them.",
-  "databuzz_team_tech_blog" : "Me and associates formed tech blog team called DataBuzz.\n Contributed editing hexo framework and articles about Data Science.",
+  "insta_scrapy_description" : "Crawling & Data Mining Project\n Crawled instagram datas using Scrapy framework to find out which tags are being used in Seoul and get an interesting insight from them.",
+  "insta_scrapy_description detail" : "• About : LDA Topic Modeling<br><br>• Period : 2018.09 - Ongoing<br><br>• Train Data : 43264 rows, 20 columns<br><br>• Model : Latent Dirichlet Allocation<br><br>• For more details see notebook",
+   "databuzz_team_tech_blog" : "Me and associates formed tech blog team called DataBuzz.\n Contributed editing hexo framework and articles about Data Science.",
   "humpback whale identification description" : "Competition to build an algorithm to identify individual whales in images.",
   "humpback whale identification description detail" : "• About : Competition to build an algorithm to identify individual whales in images.<br><br>• Period : 2019. 01 - Ongoing<br>• Train Data - 25361 images<br>• Test Data - 7960 images<br>• Model : Convolutional Neural Network<br><br>• For more details see notebook",
   "Today I Learned" : "Today I Learned",
   "Click to see notebook" : "Click to see notebook",
-  "ongoing project" : "Ongoing project"
+  "ongoing project" : "Ongoing project",
+  "complete project" : "Done"
 }
