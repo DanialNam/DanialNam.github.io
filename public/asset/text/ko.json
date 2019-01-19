@@ -20,6 +20,7 @@
   "humpback whale identification description" : "Kaggle 대회\n 고래 꼬리 사진을 보고 고래 종류를 분류하는 프로젝트입니다.",
   "humpback whale identification description detail" : "• About : Competition to build an algorithm to identify individual whales in images.<br><br>• Period : 2019. 01 - Ongoing<br>• Train Data - 25361 images<br>• Test Data - 7960 images<br>• Model : Convolutional Neural Network<br><br>• For more details see notebook",
   "Today I Learned" : "Today I Learned",
+  "Tech Blog" : "Tech Blog",
   "Click to see notebook" : "Notebook 보러가기",
   "ongoing project" : "진행중인 프로젝트",
   "complete project" : "완료된 프로젝트"
