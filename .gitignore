@@ -2,13 +2,8 @@
 .DS_Store
 .sass-cache
 .babelrc
-src/
-gulpfile.js
-package-lock.json
-yarn.lock
-server.js
-site.combined.min.css.map
-templates/*
+public/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
