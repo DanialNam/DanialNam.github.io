@@ -4,6 +4,7 @@
 .babelrc
 src/
 gulpfile.js
+package.json
 package-lock.json
 yarn.lock
 server.js
